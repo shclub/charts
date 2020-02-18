@@ -184,6 +184,7 @@ configurationOverrides:
   ##"listener.security.protocol.map": |-
   ##   PLAINTEXT:PLAINTEXT,EXTERNAL:PLAINTEXT
   "advertised.listeners": EXTERNAL://211.252.86.36:31090
+  ##  EXTERNAL://my-kafka.cluster.local:31090
   "listener.security.protocol.map": PLAINTEXT:PLAINTEXT,EXTERNAL:PLAINTEXT
   "listeners": PLAINTEXT://:9092,EXTERNAL://:31090
   "inter.broker.listener.name": "PLAINTEXT"
